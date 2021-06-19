@@ -91,3 +91,13 @@ body {
     width: 10em;
     margin-top: -1em;
   }
+
+  #botoneraPrincipal{
+    margin-top: 2em;
+    position: absolute;
+    z-index: 11;
+  }
+  #botoneraPrincipal img{
+   height: 5em;
+   margin: 1em;
+  }
