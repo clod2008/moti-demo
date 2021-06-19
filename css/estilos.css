@@ -1,0 +1,93 @@
+/* ---- estilos propios ---- */
+
+
+body {
+  /* margin: 0 !important;
+  padding: 0 !important; */
+  overflow-x: hidden;
+  
+  
+}
+
+.carousel-item img {
+    height: 100%;
+  }
+  
+  .carousel-control-prev,  .carousel-control-next {
+    z-index: 15;
+  }
+  
+  .data {
+    /* background-color: red; */
+    position: absolute;
+
+  }
+  
+  .boton {
+    z-index: 11;
+    /* background-color: sandybrown; */
+    font-family: 'Lato', sans-serif;
+    font-weight:300;
+    font-style: italic;
+    text-shadow: 2px 2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, -2px -2px 0 #000, 2px 0px 0 #000, 0px 2px 0 #000, -2px 0px 0 #000, 0px -2px 0 #000, 4px 2px 2px rgba(0,0,0,0);
+    color: #FFFFFF;
+    margin: auto;
+    transition: transform 500ms ease; 
+  }
+  
+  .boton:hover {
+    transform: scale(1.6);
+    transition: transform 500ms ease;
+  }
+
+  #particles-js {
+      z-index: 10;
+  }
+
+  #zonaBotonera {
+      /* display: flex;
+      align-items: center; */
+      position: fixed;
+      z-index: 30;
+      /* float: inline-start; */
+      background-color: skyblue;
+      opacity: 0.5;
+
+  }
+
+  .carousel-item{
+    height: 100vh;
+
+  }
+
+  #navBarPpl{
+    position: absolute;
+    background-color: white;
+    mix-blend-mode: difference;
+    z-index: 30;
+
+  }
+ 
+  #logoKoan{
+    z-index: 11;
+    position: relative;
+
+    display: block;
+    margin-top: 3em;
+    margin-bottom: 14em;
+
+  }
+  #logoKoan img{
+    width: 150px;
+
+  }
+
+  #cont{
+    position: absolute;
+    z-index: 11;
+  }
+
+  #subTitulo{
+    width: 10em;
+    margin-top: -1em;
+  }
