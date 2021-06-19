@@ -101,3 +101,19 @@ body {
    height: 5em;
    margin: 1em;
   }
+
+  #botoneraPrincipal img:hover {
+    transform: scale(1.2);
+    transition: transform 300ms ease;
+  }
+
+  #play {
+    transition: transform 500ms ease;
+
+    mix-blend-mode: difference;
+    transform: scale(1);
+  }
+
+  #play :hover{
+
+  }
